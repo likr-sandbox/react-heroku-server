@@ -1,0 +1,38 @@
+{
+  "name": "react-heroku-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likr-sandbox/react-heroku-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likr-sandbox/react-heroku-server/issues"
+  },
+  "homepage": "https://github.com/likr-sandbox/react-heroku-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "jwks-rsa": "^1.12.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "type": "module"
+}
